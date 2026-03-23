@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*
+{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body
+{
+    margin: 0;
+    background-color: rgb(22, 20, 32);
+}
+h2
+{
+    color: white;
+    font-size: 24px;
+}
+.jogo
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.acertos
+{
+    color: white;
+    margin: 5px 0 30px 0;
+}
+.jogo > p
+{
+    border: 1px solid white;
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+    padding: 5px;        
+}
+main
+{
+    padding-top: 25px;
+    width: 90%;
+    margin: auto;
+}
+#data_jogo
+{
+    font-weight: 700;
+    padding-left: 5px;
+}
+header
+{
+    height: 70px;
+    background-color: rgb(7, 7, 65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header > h1
+{
+    margin: 0;
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+#numeros_jogo
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+#numeros_jogo > p
+{
+    border: 1px solid white;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 5px;
+}
+#btn_atualizar
+{
+    background-color: rgb(6, 60, 131);
+    color: white;
+    border: none;
+    padding: 5px;
+    width: 100px;
+    font-size: 14px;
+    border-radius: 5px;
+}
